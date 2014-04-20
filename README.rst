@@ -28,8 +28,9 @@ aware of the eggs:
     [python-vim]
     eggs +=
         ${omelette:eggs}
+        ... or ...
         ${instance:eggs}
-        ${pyramid:eggs}
+        ... or ...
         ${whatever:eggs}
 
 Beyond this, the config also generates a ``.vimrc`` file locally within the
